@@ -1,0 +1,5 @@
+# Prevent node_modules from being included in the image and the .env
+
+node_modules
+
+.env
