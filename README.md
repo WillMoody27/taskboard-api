@@ -1,6 +1,6 @@
-# Task Manager API Project (Currently Updating)
+# Taskboard API (Currently Updating)
 
-This is a simple RESTful API that will allows users to create, manage and delete their tasks, stored in the DB. The API will also handle allowing the user to update and save new password to the database which are then encrypted using Bcrypt package. This project was a way for me to test out working with password hashing and tracking when a password was last used,. when a user is loggin in as well as working with a relational database.
+Taskboard is a RESTful API I crafted to empower users in creating, managing, and deleting tasks stored in the database. Furthermore, it facilitates seamless password updates and encryption through the integration of the Bcrypt npm package. This endeavor served as an immersive exploration into password hashing and tracking using Node.js, while concurrently honing skills in constructing RESTful APIs and leveraging essential JavaScript principles. It encapsulates robust user authentication mechanisms and seamless interaction with relational database using Postgres.
 
 ### Tech Stack
 
@@ -79,3 +79,7 @@ curl -X PUT http://localhost:3000/update-password -H "Content-Type: application/
 }
 '
 ```
+
+---
+
+# NOTE: Additional functionality is currently being added to the project.
