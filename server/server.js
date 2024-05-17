@@ -4,6 +4,16 @@ const taskRoutes = require("./src/tasks/routes"); // This will import the taskRo
 const app = express();
 const port = 3000;
 
+// Handle CORS
+const cors = require("cors");
+
+// Setup the CORS middleware
+app.use(
+  cors({
+    origin: "http://localhost:5173",
+  })
+);
+
 // use the middleware to inlcude the be able to parse JSON data
 app.use(express.json());
 

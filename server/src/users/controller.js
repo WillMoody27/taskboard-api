@@ -97,7 +97,8 @@ const updateUserPassword = async (req, res) => {
     // Update the user password
     await pool.query(queries.updateUserPasswordQuery, [hashedPassword, email]);
 
-    res.status(200).send("Password updated successfully");
+    // show the updated user fields
+    res.status(200).json({ email, password: hashedPassword });
   } catch (error) {
     console.error(error);
     res.status(500).send("Error updating password");
