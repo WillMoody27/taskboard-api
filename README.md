@@ -154,7 +154,16 @@ Vite Documentation:
 
 ### Taskboard.jsx:
 
-This will contain the main component that will be used to display the tasks. It will handle `CORS` and `GET` requests to the API to fetch the tasks.
+GOAL(s):
+
+- User Story:
+
+  - As a user, I want to be able to view all the tasks that are stored in the database.
+  - As a user, I want to be able to create a new task.
+  - As a user, I want to be able to update a task.
+  - As a user, I want to be able to delete a task.
+
+This component will contain the main component that will be used to display the tasks. It will display each task located in the relational database tied to a specific user. It will allow the user to create, update, and delete tasks.
 
 Example of CORS Error:
 <img src="images/cors_error.png" alt="Cor Error" style="max-width: 1140px; width: 100%; margin: 0 auto; display: block;
@@ -184,7 +193,7 @@ app.use(
 
 Example of Vite Local Enviornment:
 
-<img src="images/local_dev_env.png" alt="local_env" style="max-width: 1140px; width: 100%; margin: 0 auto; display: block;
+<img src="images/local_dev_env.png" alt="local_env" style="max-width: 600px; width: 100%; margin: 0 auto; display: block;
 ">
 
 - If successful, you should see the following output in the terminal:
