@@ -1,6 +1,6 @@
 # Taskboard API + Frontend UI (Currently Updating)
 
-Taskboard is a RESTful API designed to empower users to create, manage, and delete tasks stored in a database. It supports password updates and encryption using the Bcrypt npm package, providing robust user authentication. This project was an immersive exploration into password hashing and tracking using Node.js while honing skills in constructing RESTful APIs. Additionally, it involves integrating a frontend UI using Vite and React.js for a seamless user experience, encompassing secure authentication and efficient interaction with a PostgreSQL relational database.
+Taskboard is a RESTful API designed to empower users to create, manage, and delete tasks stored in a database. It supports password updates and encryption using the Bcrypt npm package, providing robust user authentication. This project was an immersive exploration into password hashing and tracking using Node.js while honing skills in constructing RESTful APIs. Additionally, it involves integrating a frontend UI using Vite and React.js for a seamless user experience, encompassing secure authentication. The project also utilizes Docker for containerization, ensuring a consistent development and deployment environment.
 
 # Installation | Setup
 
