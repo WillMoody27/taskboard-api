@@ -1,4 +1,4 @@
-# Taskboard API Vite + React.js (Currently Updating)
+# Taskboard API - Includes Vite + React.js (Currently Updating)
 
 ### [My Portfolio](https://www.williamhmoody.com/) | [My LinkedIn](https://www.linkedin.com/in/williamhellemsmoody/)
 
