@@ -1,8 +1,12 @@
-# Taskboard API + Frontend UI (Currently Updating)
+# Taskboard API Vite + React.js (Currently Updating)
 
 ### [My Portfolio](https://www.williamhmoody.com/) | [My LinkedIn](https://www.linkedin.com/in/williamhellemsmoody/)
 
-Taskboard is a RESTful API designed to empower users to create, manage, and delete tasks stored in a database. It supports password updates and encryption using the Bcrypt npm package, providing robust user authentication. This project was an immersive exploration into password hashing and tracking using Node.js while honing skills in constructing RESTful APIs. Additionally, it involves integrating a frontend UI using Vite and React.js for a seamless user experience, encompassing secure authentication. The project also utilizes Docker for containerization, ensuring a consistent development and deployment environment.
+### Tech Stack
+
+- **Node.js | Express.js | Postgres | Vite | React.js | Docker**
+
+Taskboard is a RESTful API designed to empower users to create, manage, and delete tasks stored in a database. It supports password updates and encryption using the Bcrypt npm package, providing robust user authentication. This project was an immersive exploration into password hashing and tracking using **Node.js** while honing skills in constructing RESTful APIs. Additionally, it involves integrating a frontend UI using **Vite** and **React.js** for a seamless user experience, encompassing secure authentication. The project also utilizes Docker for containerization, ensuring a consistent development and deployment environment.
 
 # Installation | Setup
 
@@ -16,14 +20,6 @@ Taskboard is a RESTful API designed to empower users to create, manage, and dele
 - bcrypt (Run `sudo npm install bcrypt`) - This is required to hash the password
 - cors (Run `sudo npm install cors`) - This is required to allow CORS
   requests
-
-### Tech Stack
-
-- Node.js
-- Express.js
-- Postgres
-- Vite + React.js
-- Docker
 
 ### Node.js Setup
 
