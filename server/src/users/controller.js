@@ -1,5 +1,5 @@
 // import the pool module from db.js
-const pool = require("../../db"); // import the pool to use the DB connection
+const pool = require("../../db/db"); // import the pool to use the DB connection
 const queries = require("./queries"); // import the queries to use SQL queries
 const bcrypt = require("bcrypt"); // import bcrypt to hash the password
 

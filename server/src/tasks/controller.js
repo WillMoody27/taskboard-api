@@ -1,5 +1,5 @@
 // import the pool module from db.js
-const pool = require("../../db"); // import the pool to use the DB connection
+const pool = require("../../db/db"); // import the pool to use the DB connection
 const queriesTask = require("./queries"); // import the queries to use SQL queries
 const queriesUsers = require("../users/queries"); // import the queries to use SQL queries
 
